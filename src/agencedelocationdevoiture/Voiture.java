@@ -16,7 +16,9 @@ private String marque;
 private float prixLocation;
 
 public Voiture(int immariculation, String marque, float prixLocation) {
-// à compléter
+ this.immariculation = immariculation;
+        this.marque = marque;
+        this.prixLocation = prixLocation;
     
 }
 public int getImmariculation() {
