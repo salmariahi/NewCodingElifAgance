@@ -19,7 +19,9 @@ private String prenom;
 
     public Client(int code, String nom, String prenom) {
         
-// à compléter
+        this.code = code;
+        this.nom = nom;
+        this.prenom = prenom;
 
     }
 
